@@ -1,4 +1,4 @@
-print("Hello")
+
 local ensure_packer = function()
   local fn = vim.fn
   local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
@@ -11,6 +11,7 @@ local ensure_packer = function()
 end
 
 local packer_bootstrap = ensure_packer()
+
 
 return require('packer').startup(function(use)
   -- Packer can manage itself
