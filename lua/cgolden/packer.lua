@@ -21,9 +21,10 @@ return require('packer').startup(function(use)
         requires = {
             "nvim-tree/nvim-web-devicons"},
         config = function ()
-            require("nvim-tree").setup {}
+            require("nvim-tree")
         end
     }
+
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
         -- or                            , branch = '0.1.x',
