@@ -7,7 +7,7 @@ lsp.ensure_installed({
   'eslint',
   'lua_ls',
   'rust_analyzer',
-  'vscode-html-languageserver',
+  'html',
 })
 
 -- Fix Undefined global 'vim'

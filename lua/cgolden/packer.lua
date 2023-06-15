@@ -32,10 +32,10 @@ return require('packer').startup(function(use)
     }
 
     use({
-        'rose-pine/neovim',
-        as = 'rose-pine',
+        'rebelot/kanagawa.nvim',
+        as = 'kanagawa',
         config = function()
-            vim.cmd('colorscheme rose-pine')
+            vim.cmd('colorscheme kanagawa')
         end
     })
 
@@ -68,8 +68,6 @@ return require('packer').startup(function(use)
     }
 
     use("folke/zen-mode.nvim")
-    use("github/copilot.vim")
-
 
     use {
         'numToStr/Comment.nvim',
