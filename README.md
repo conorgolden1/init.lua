@@ -3,6 +3,7 @@
 This is a [fork](https://github.com/ThePrimeagen/init.lua) and personal neovim
 config. Below is the original information in the README
 
+![Neovim Setup screenshot](https://github.com/conorgolden1/init.lua/blob/master/screenshots/Nvim-screenshot.png?raw=true)
 
 ### ThePrimeagen's init.lua
 Prerequisite: install [ripgrep](https://github.com/BurntSushi/ripgrep).
