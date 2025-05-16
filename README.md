@@ -3,6 +3,9 @@
 This is a [fork](https://github.com/ThePrimeagen/init.lua) and personal neovim
 config. Below is the original information in the README
 
+## REQUIREMENTS
+Luarocks - (ubuntu: apt-get install luarocks)
+
 ![Neovim Setup screenshot](https://github.com/conorgolden1/init.lua/blob/master/screenshots/Nvim-screenshot.png?raw=true)
 
 ### ThePrimeagen's init.lua
