@@ -1,7 +1,6 @@
-require("cgolden.lazy_init")
-require("cgolden.set")
 require("cgolden.remap")
-
+require("cgolden.set")
+require("cgolden.lazy_init")
 -- DO.not
 -- DO NOT INCLUDE THIS
 
@@ -14,7 +13,7 @@ require("cgolden.remap")
 -- DO.not
 
 local augroup = vim.api.nvim_create_augroup
-local cgoldenGroup = augroup('Cgolden', {})
+local cgoldenGroup = augroup('cgolden', {})
 
 local autocmd = vim.api.nvim_create_autocmd
 local yank_group = augroup('HighlightYank', {})
