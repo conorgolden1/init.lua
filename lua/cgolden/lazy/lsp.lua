@@ -28,7 +28,12 @@ return {
     config = function()
         require("conform").setup({
             formatters_by_ft = {
-            }
+                php = { "pretty_php" },
+                ["_"] = { "prettierd", "prettier", stop_after_first = true},
+            },
+            default_format_opts = {
+                lsp_format = "fallback",
+            },
         })
         local cmp = require('cmp')
         local cmp_lsp = require("cmp_nvim_lsp")
@@ -45,6 +50,7 @@ return {
                 "lua_ls",
                 "rust_analyzer",
                 "gopls",
+                "prettier",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
